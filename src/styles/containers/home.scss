@@ -1,0 +1,22 @@
+@import 'styles/include/_variables.scss';
+
+.card {
+  &.home {
+    .form {
+      &-control {
+        margin-left: $margin-sm-horizontal;
+        margin-right: $margin-sm-horizontal;
+      }
+
+      #rowsCount-helper-text,
+      #colsCount-helper-text,
+      #carriersCount-helper-text,
+      #battleshipsCount-helper-text,
+      #cruisersCount-helper-text,
+      #destroyersCount-helper-text,
+      #submarinesCount-helper-text {
+        color: $color-secondary;
+      }
+    }
+  }
+}

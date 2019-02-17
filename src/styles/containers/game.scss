@@ -1,0 +1,44 @@
+@import 'styles/include/_variables.scss';
+
+.game {
+  .card {
+    .card-content {
+      table {
+        th,
+        td {
+          padding: $padding-base;
+          text-align: center;
+          font-size: 24px;
+        }
+      }
+
+      .game-table {
+        width: 100%;
+        overflow-x: auto;
+      }
+
+      .status-msg {
+        height: 20px;
+      }
+
+      .evaluate-shot {
+        display: flex;
+        align-items: center;
+        margin-top: $margin-base-vertical;
+
+        .form-control {
+          margin: 0 $margin-base-horizontal;
+        }
+
+        .btn {
+          margin-right: $margin-base-horizontal;
+          width: 150px;
+        }
+      }
+
+      .result-msg {
+        margin-top: $margin-base-vertical;
+      }
+    }
+  }
+}

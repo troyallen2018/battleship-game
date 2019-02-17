@@ -1,0 +1,9 @@
+export const START = 'App/START';
+export const START_SUCCESS = 'App/START_SUCCESS';
+export const START_ERROR = 'App/START_ERROR';
+export const EVALUATE_SHOT = 'App/EVALUATE_SHOT';
+export const EVALUATE_SHOT_SUCCESS = 'App/EVALUATE_SHOT_SUCCESS';
+export const EVALUATE_SHOT_ERROR = 'App/EVALUATE_SHOT_ERROR';
+export const GET_CHEAT = 'App/GET_CHEAT';
+export const GET_CHEAT_SUCCESS = 'App/GET_CHEAT_SUCCESS';
+export const GET_CHEAT_ERROR = 'App/GET_CHEAT_ERROR';
